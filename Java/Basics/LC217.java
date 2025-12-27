@@ -19,3 +19,8 @@ class LC217 {
         System.out.println(sol.containsDuplicate(nums)); // Output: true
     }
 }
+
+/*
+Time Complexity: O(n), where n is the number of elements in the input array nums. In the worst case, we may need to insert all n elements into the HashSet.
+Space Complexity: O(n) in the worst case, when all elements are unique and we store all n elements in the HashSet.
+ */

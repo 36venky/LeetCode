@@ -1,6 +1,6 @@
 package Java.Basics;
 
-public class LC218 {
+public class LC242 {
     public boolean validAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
@@ -23,7 +23,7 @@ public class LC218 {
     }
 
     public static void main(String[] args){
-        LC218 obj = new LC218();
+        LC242 obj = new LC242();
         String s = "anagram";
         String t = "naiaram";
         boolean result = obj.validAnagram(s, t);
@@ -31,3 +31,7 @@ public class LC218 {
     }
     
 }
+/*
+Time Complexity: O(n) where n is the length of the strings.
+Space Complexity: O(1) since the size of the character count array is fixed (26)
+ */
