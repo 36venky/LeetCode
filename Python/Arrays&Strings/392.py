@@ -4,6 +4,9 @@ class Solution():
         T = len(t)
         j = 0
 
+        if s == "":
+            return True
+        
         for i in range(T):
             if t[i] == s[j]:
                 if j == S-1:        # If the Substring is satisfied "in Order" return True
